@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" async></script>
+  <title>Memory-Ram</title>
+</head>
+<body>
+  <div class="overlay-text visible">
+    
+  </div>
+  <div id="game-over-text" class="overlay-text">
+    GAME OVER
+    <span class="overlay-text-small">Jugar de nuevo</span>
+  </div>
+  <div id="victory-text" class="overlay-text">
+    HAS GANADO
+    <span class="overlay-text-small">Jugar de nuevo</span>
+  </div>
+
+  <div class="game-container">
+    <div class="game-info-container">
+      <div class="game-info">
+        Time <span id="time-remaining">100</span>
+      </div>
+      <div class="game-info"> Giros
+         <span id="flips">0</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/git.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/firefox.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/visual.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/ubuntu.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/node.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/microsoft.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/kotlin.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/chrome.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/atom.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/vue.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/git.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/firefox.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/visual.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/ubuntu.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/node.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/microsoft.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+       <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/kotlin.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/chrome.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/atom.png">
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-back card-face">
+        <img class="spider" src="Assets/Images/back.png">
+      </div>
+      <div class="card-front card-face">
+        <img class="card-value" src="Assets/Images/vue.png">
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
